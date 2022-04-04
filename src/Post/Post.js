@@ -1,9 +1,11 @@
-const Post  = (props) => {
-    const {userid, id, title, body} = props;
-
+const Post  = (post) => {
+const {userid, id, title, body} = post;
     return(
         <div>
-            {userid} {id} - {title} - {body}
+            <div>userid: {userid} </div>
+            <div>id: {id} </div>
+            <div>title: {title}</div>
+            <div>body: {body}</div>
         </div>
     );
 

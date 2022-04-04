@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
-import  User from "../User/User"
 import React from "react";
+
+import  User from "../User/User"
 
 const Users = () => {
     const [users, setUsers] = useState([]);

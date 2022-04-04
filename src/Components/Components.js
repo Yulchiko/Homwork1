@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react";
-import Component from "../Component/Component";
 import React from "react";
+
+import Component from "../Component/Component";
 
 const Components = () => {
     const [components, setComponents] = useState([]);

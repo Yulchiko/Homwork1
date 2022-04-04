@@ -1,9 +1,12 @@
-const Component  = (props) => {
-    const {postid, id, name, email, body} = props;
-
+const Component  = (component) => {
+const {postid, id, name, email, body} = component;
     return(
         <div>
-            {postid} {id} - {name} - {email} - {body}
+            <div>postid: {postid} </div>
+            <div>id: {id} </div>
+            <div>name: {name} </div>
+            <div>email: {email} </div>
+            <div>body: {body} </div>
         </div>
     );
 
